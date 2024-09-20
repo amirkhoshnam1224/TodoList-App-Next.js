@@ -6,6 +6,7 @@ import { useContext } from 'react'
 import { NotificationContext } from '../contexts/NotificationContext'
 import SendEmail from '../components/SendEmail'
 import Footer from '../components/Footer'
+import pic from '../../public/1719331259322.jpg'
 
 const Author: NextPage = () => {
 
@@ -23,14 +24,14 @@ const Author: NextPage = () => {
       <Header openProjects={()=>{}} />
       <main className={`${styles.mainContent} centerContainer`}>
             <section className={styles.contentBlock}>
-              <img className={styles.profilePicture} src="https://ik.imagekit.io/lrjseyuxi3m/todoapp/MOSHED-2021-5-27-10-58-4_1_mqfuf7R1O.png?updatedAt=1636635922170" alt="" />
+              <img className={styles.profilePicture} src="../styles/1.jpg" alt="" />
               <div className={styles.textBlock}>
                 <h2>The author</h2>
                 <p>
                   Hi there.
-                   I&apos;m Patrick Rios, a <b>developer</b> based in Dourados-MS, Brazil.
+                   I&apos;m amir khoshnam, a <b>developer</b> based in iran.
                    Nowdays, i&apos;m in my journey to became a professional <b>web developer</b>, and this project is a part of it. 
-                   I&apos;ve studied the modern web development almost two years, and you can check this and other projects in my <a href="https://patrickrios.github.io">portfolio page.</a>
+                   I&apos;ve studied the modern web development almost three years, and you can check this and other projects in my <a href="https://amirkhoshnam1224@gmail.com">portfolio page.</a>
                 </p>
               </div>
             </section>
@@ -50,13 +51,13 @@ const Author: NextPage = () => {
                 <h2>Get in touch with me</h2>
                 <div className={styles.contentBlock}>
                   <div className={styles.socialLinks}>
-                    <a href="https://www.youtube.com/channel/UCKVwiehGpmpUGKA-7evvuPw">
-                      <img className={`${styles.socialItem} ${styles.linkYoutube}`} src="https://ik.imagekit.io/lrjseyuxi3m/todoapp/undraw_youtube_icon_KQ3Mu29f9Vjv.svg?updatedAt=1636635922070"/>                    
+                    <a href="https://amirkhoshnam1224@gmail.com">
+                      <img className={`${styles.socialItem} ${styles.linkYoutube}`} src=""/>                    
                     </a>
-                    <a href="https://www.linkedin.com/in/patrickriosf/">
+                    <a href="https://amirkhoshnam1224@gmail.com">
                       <img className={`${styles.socialItem} ${styles.linkLinkedin}`} src="https://ik.imagekit.io/lrjseyuxi3m/todoapp/undraw_linkedin_icon_qW0U6Df8q.svg?updatedAt=1636635922444"/>                    
                     </a>
-                    <a href="https://github.com/patrickrios" className={`${styles.socialItem} ${styles.linkGithub}`} >
+                    <a href="https://amirkhoshnam1224@gmail.com" className={`${styles.socialItem} ${styles.linkGithub}`} >
                       <img src="https://ik.imagekit.io/lrjseyuxi3m/todoapp/undraw_github_icon_Df3Xanhbpl.svg?updatedAt=1636635922146"/>
                     </a>
                     <img src="https://ik.imagekit.io/lrjseyuxi3m/todoapp/undraw_social_ideas_re_j5v4_8fl8yGcsFLY.svg?updatedAt=1636637986700" alt="" />
